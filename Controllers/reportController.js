@@ -2,7 +2,7 @@ const axios = require('axios');
 const Report = require('../Models/Report');
 require('dotenv').config();
 const moment = require('moment');
-const openRouter_APIKey = process.env.OPENROUTER_API_KEY;
+const openRouter_APIKey = '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';
 
 exports.createReport = async (req, res) => {
     try {
